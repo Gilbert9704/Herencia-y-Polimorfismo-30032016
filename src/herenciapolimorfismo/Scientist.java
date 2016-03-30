@@ -30,11 +30,11 @@ public class Scientist {
     public void setWrite(){
         mode = new WriteMode();
     }
-    
-    public void setTeach(){
+    /*
+    public void setTeach(){ Si no implemento Mode0 puedo quitar esto como comentario
         mode = new TeachMode(); 
     }
-    
+    */
     public void setAdministrate(){
         mode = new AdmMode();
     }
@@ -42,7 +42,7 @@ public class Scientist {
     public static void main(String[] args){
         Scientist einstein = new Scientist();
         einstein.doing();
-        einstein.setTeach();
+        //einstein.setTeach();
         einstein.doing();
     }
 }

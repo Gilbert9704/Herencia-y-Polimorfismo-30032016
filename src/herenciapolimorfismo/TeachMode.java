@@ -10,7 +10,7 @@ package herenciapolimorfismo;
  * @author Estudiante
  */
 public class TeachMode implements Mode0 {
-    
+
     @Override
     public void work(){
         System.out.println("Teach");
